@@ -5,14 +5,14 @@ A small library that seperates '..' from paths
 
 ## Installation
 
-  `npm install @thanseeh_abdulla/number-formatter-ats`
+  `npm install @thanseeh_abdulla/pathfixer-ats`
 
 ## Usage
 
-    var numFormatter = require('@thanseeh_abdulla/number-formatter');
+    var numFormatter = require('@thanseeh_abdulla/pathfixer');
 
-    var formattedNum = numFormatter(35666);
+    var formattedNum = pathFormatter('/opt/lamp/../lamp/..');
   
   
-  Output should be `35,666`
+  Output should be `/lamp`
 
