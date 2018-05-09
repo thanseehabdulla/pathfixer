@@ -9,7 +9,7 @@ A small library that seperates '..' from paths
 
 ## Usage
 
-    var pathFormatter = require('@thanseeh_abdulla/pathfixer');
+    var pathFormatter = require('@thanseeh_abdulla/pathfixer-ats');
 
     var formattedPath = pathFormatter('/opt/lamp/../lamp/..');
   
