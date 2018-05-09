@@ -9,9 +9,9 @@ A small library that seperates '..' from paths
 
 ## Usage
 
-    var numFormatter = require('@thanseeh_abdulla/pathfixer');
+    var pathFormatter = require('@thanseeh_abdulla/pathfixer');
 
-    var formattedNum = pathFormatter('/opt/lamp/../lamp/..');
+    var formattedPath = pathFormatter('/opt/lamp/../lamp/..');
   
   
   Output should be `/lamp`

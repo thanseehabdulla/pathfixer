@@ -1,6 +1,6 @@
 {
-  "name": "pathfixer",
-  "version": "1.0.0",
+  "name": "pathfixer-ats",
+  "version": "1.0.1",
   "description": "a path fixer for url",
   "main": "index.js",
   "scripts": {
